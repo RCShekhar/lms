@@ -24,3 +24,6 @@ def register(request):
         return redirect("/")
     else:
         return render(request, "register.html")
+
+def homepage(request):
+    return render("Home.html")
